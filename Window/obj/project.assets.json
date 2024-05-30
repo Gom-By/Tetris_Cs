@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Engine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Engine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Engine/1.0.0": {
+      "type": "project",
+      "path": "../Engine/Engine.csproj",
+      "msbuildProject": "../Engine/Engine.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Engine >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nahar\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\nahar\\Desktop\\code\\C_variants\\Tetris_Cs\\Window\\Window.csproj",
+      "projectName": "Window",
+      "projectPath": "C:\\Users\\nahar\\Desktop\\code\\C_variants\\Tetris_Cs\\Window\\Window.csproj",
+      "packagesPath": "C:\\Users\\nahar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nahar\\Desktop\\code\\C_variants\\Tetris_Cs\\Window\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nahar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\nahar\\Desktop\\code\\C_variants\\Tetris_Cs\\Engine\\Engine.csproj": {
+              "projectPath": "C:\\Users\\nahar\\Desktop\\code\\C_variants\\Tetris_Cs\\Engine\\Engine.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
